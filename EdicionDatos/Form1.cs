@@ -86,5 +86,11 @@ namespace EdicionDatos
                 laDniCif.Text = VentanaIntroduccion.tbDniCif.Text;
             }
         }
+
+        private void btAcercaDe_Click(object sender, EventArgs e)
+        {
+            fmAcercaDe VentanaAcercade = new fmAcercaDe();
+            VentanaAcercade.ShowDialog();
+        }
     }
 }

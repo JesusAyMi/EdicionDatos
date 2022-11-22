@@ -368,6 +368,7 @@
             this.btAcercaDe.TabIndex = 21;
             this.btAcercaDe.Text = "Acerca De";
             this.btAcercaDe.UseVisualStyleBackColor = true;
+            this.btAcercaDe.Click += new System.EventHandler(this.btAcercaDe_Click);
             // 
             // fmEdicion
             // 
